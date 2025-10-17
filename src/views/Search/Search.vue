@@ -592,7 +592,7 @@
             if (
                 (searchAvatarFilterRemote.value === 'all' || searchAvatarFilterRemote.value === 'remote') &&
                 avatarRemoteDatabase.value &&
-                query.length >= 3
+                query.length >= 1
             ) {
                 const data = await lookupAvatars('search', query);
                 if (data && typeof data === 'object') {

@@ -52,7 +52,7 @@
                 <el-button
                     v-else
                     style="display: block; width: 100%; margin: 10px 0; white-space: initial; height: auto"
-                    :disabled="!isLocalUserVrcPlusSupporter"
+                    :disabled="false"
                     @click="addLocalAvatarFavorite(favoriteDialog.objectId, group)">
                     {{ group }} ({{ getLocalAvatarFavoriteGroupLength(group) }})
                 </el-button>

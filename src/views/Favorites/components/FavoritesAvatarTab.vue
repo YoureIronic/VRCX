@@ -147,7 +147,7 @@
             </el-collapse-item>
             <span style="display: block; margin-top: 20px">{{ t('view.favorite.avatars.local_favorites') }}</span>
             <br />
-            <el-button size="small" :disabled="!isLocalUserVrcPlusSupporter" @click="promptNewLocalAvatarFavoriteGroup">
+            <el-button size="small" :disabled="false" @click="promptNewLocalAvatarFavoriteGroup">
                 {{ t('view.favorite.avatars.new_group') }}
             </el-button>
             <el-button

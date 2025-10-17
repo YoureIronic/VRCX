@@ -86,7 +86,7 @@
                     </el-form-item>
                     <el-form-item :label="t('dialog.new_instance.display_name')">
                         <el-input
-                            :disabled="!isLocalUserVrcPlusSupporter"
+                            :disabled="false"
                             v-model="newInstanceDialog.displayName"
                             size="small"
                             @click="$event.target.tagName === 'INPUT' && $event.target.select()"
